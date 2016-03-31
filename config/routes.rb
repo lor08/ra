@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+  get 'static_pages/about'
+
+  #get 'static_pages/index'
+  match '/',  to: 'static_pages#index', via: 'get'
+  match '/gps',  to: 'static_pages#gps', via: 'get'
+  match '/graphics',  to: 'static_pages#graphics', via: 'get'
+  match '/tables',  to: 'static_pages#tables', via: 'get'
+  match '/weather',  to: 'static_pages#weather', via: 'get'
+  match '/ztd',  to: 'static_pages#ztd', via: 'get'
+  match '/tec',  to: 'static_pages#tec', via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
