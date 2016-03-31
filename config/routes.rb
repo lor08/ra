@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   match '/tec',  to: 'static_pages#tec', via: 'get'
   match '/about',  to: 'static_pages#about', via: 'get'
   match '/rinex',  to: 'static_pages#rinex', via: 'get'
+  match '/signup',  to: 'users#new', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
