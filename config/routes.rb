@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
 
   #get 'static_pages/index'
-  match '/gpss',  to: 'static_pages#gps', via: 'get'
+  match '/gps',  to: 'static_pages#gps', via: 'get'
   match '/graphics',  to: 'static_pages#graphics', via: 'get'
   match '/tables',  to: 'static_pages#tables', via: 'get'
   match '/weather',  to: 'static_pages#weather', via: 'get'
