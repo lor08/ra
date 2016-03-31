@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  get 'static_pages/about'
+
+  get 'static_pages/index'
+
+  get 'static_pages/gps'
+
+  get 'static_pages/graphics'
+
+  get 'static_pages/rinex'
+
+  get 'static_pages/tables'
+
+  get 'static_pages/weather'
+
+  get 'static_pages/ztd'
+
+  get 'static_pages/tec'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
