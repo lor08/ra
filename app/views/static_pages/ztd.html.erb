@@ -1,3 +1,24 @@
-<% provide(:title, 'Ztd') %>
-<h1>StaticPages#ztd</h1>
-<p>Find me in app/views/static_pages/ztd.html.erb</p>
+<% provide(:title, 'ZTD') %>
+
+        <h3 class="text-info">On this page you may download ZTD data</h3>      
+    </div>
+    <div class="container">
+    <div class="col-md-6" style="height:130px;">
+        <div class="form-group">
+            <div class='input-group date' id='datetimepicker8'>
+                <input type='text' class="form-control" placeholder="Select the day/month/year:"/>
+                <span class="input-group-addon">
+                    <span class="fa fa-calendar">
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker8').datepicker({
+                 format:'dd.mm.yy'
+            });
+        });
+    </script>
+</div>

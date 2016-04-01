@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'bootstrap-sass', '~> 3.3.6' 
 #font-awesome
 gem 'font-awesome-sass'
+#datepicker
+gem 'bootstrap-datepicker-rails', '~>1.6'
 
 gem 'bcrypt-ruby', '3.1.2'
 
